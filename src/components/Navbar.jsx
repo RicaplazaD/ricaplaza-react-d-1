@@ -11,7 +11,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="custom-navbar text-color-white">
+    <Navbar expand="lg" className="custom-navbar">
       <Container fluid>
         <Navbar.Brand as={Link} to="/">Roblox</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
